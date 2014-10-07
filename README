@@ -6,7 +6,7 @@ where the named model is implemented. The case
 scenario is a one-dimensional fully developed 
 channel flow for Re = 13350.
 
-Usage:
+Running a case with OpenFOAM:
 1. Create mesh with the 'blockMesh' utility
 2. Use solver 'boundaryFoam'
 
