@@ -1,0 +1,15 @@
+Fully Developed Channel Flow with RANS Models
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Each folder contains a minimal working example
+where the named model is implemented. The case
+scenario is a one-dimensional fully developed 
+channel flow for Re = 13350.
+
+Usage:
+1. Create mesh with the 'blockMesh' utility
+2. Use solver 'boundaryFoam'
+
+Profiles for the velocity ('Uf.xy') and the
+turbulent kinetic energy ('k.xy') etc. can be
+found in the subfolder 'graphs/'.
